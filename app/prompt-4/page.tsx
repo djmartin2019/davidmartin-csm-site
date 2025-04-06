@@ -1,40 +1,43 @@
-import PromptFooter from "../components/promptFooter"
+import PromptFooter from "../components/promptFooter";
 
 export default function PromptFour() {
   return (
     <main className="bg-black text-white min-h-screen px-6 py-12">
       <div className="max-w-4xl mx-auto space-y-10">
 
-        {/* Prompt Section */}
         <section className="border border-neutral-800 bg-neutral-900 rounded-xl p-6">
           <h2 className="text-lg font-semibold text-neutral-300 mb-2">Prompt 4</h2>
           <p className="text-sm text-neutral-400 leading-relaxed">
-            Create and embed a 3–7 minute video on why Core Web Vitals are important to an Enterprise customer at Vercel.
+            For this prompt, I created a short video presentation covering:
             <br /><br />
-            Use this link to interpret the Core Web Vitals of <a href="https://underarmour.com" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">https://underarmour.com</a> and give a high-level overview of specific items to concentrate on to improve their overall Lighthouse score.
-            <br /><br />
-            You're encouraged to share your screen during the video, demonstrate key points, and include a high-level explanation of Vercel Speed Insights.
-          </p>
-          <p className="text-sm text-neutral-400 mt-6">
-            <strong>Summary:</strong> In this video, I walk through what Core Web Vitals are, analyze Under Armour’s current performance using PageSpeed Insights, and break down what their scores reveal about real-world user experience. I also highlight how Vercel’s platform—through features like Edge Functions, Incremental Static Regeneration, and Speed Insights—helps teams directly improve these metrics to drive SEO, engagement, and conversion outcomes.
+            • What Core Web Vitals are and why they matter<br />
+            • How Under Armour's site is currently performing across LCP, CLS, and INP<br />
+            • What Vercel can do to help improve those metrics with tools like ISR, Middleware, and built-in analytics<br /><br />
+            I also walk through a live Lighthouse report and use real mobile screenshots from UnderArmour.com to highlight layout shifts and animation delays affecting user experience.
           </p>
         </section>
 
-        {/* Video Embed Placeholder */}
         <section className="border border-neutral-800 bg-neutral-950 rounded-xl p-6">
-          <h2 className="text-lg font-semibold text-neutral-300 mb-4">Video Response</h2>
-          <div className="aspect-video bg-neutral-800 rounded-lg flex items-center justify-center text-neutral-500">
-            {/* Replace this div with your actual video embed once it's ready */}
-            <p>Video will be embedded here.</p>
+          <h2 className="text-lg font-semibold text-neutral-300 mb-4">Video</h2>
+          <div className="relative w-full" style={{ paddingTop: "56.25%" }}>
+            <iframe
+              className="absolute top-0 left-0 w-full h-full rounded-lg"
+              src="https://www.youtube.com/embed/9T8sQRwPN44"
+              title="Core Web Vitals & Vercel – David Martin"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
           </div>
         </section>
       </div>
+
       <PromptFooter
-          prevHref="/prompt-3"
-          prevLabel="← Prompt 3"
-          nextHref="/prompt-5"
-          nextLabel="Prompt 5 →"
-        />
+        prevHref="/prompt-3"
+        prevLabel="← Prompt 3"
+        nextHref="/prompt-5"
+        nextLabel="Prompt 5 →"
+      />
     </main>
   );
 }
