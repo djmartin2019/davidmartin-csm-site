@@ -52,7 +52,7 @@ export default function PromptTwo() {
               <li>Smarter scaling and fewer cold starts = potential reductions in compute costs</li>
             </ul>
 
-            <p>Want to dig in deeper?</p>
+            <p>Want to dive deeper?</p>
             <ul className="list-disc list-inside space-y-1">
               <li>
                 <a
@@ -63,7 +63,7 @@ export default function PromptTwo() {
                 >
                   Introducing Fluid Compute
                 </a>{" "}
-                – quick primer on how it works
+                – A quick overview of what’s changed and why it matters.
               </li>
               <li>
                 <a
@@ -72,9 +72,9 @@ export default function PromptTwo() {
                   rel="noopener noreferrer"
                   className="text-blue-400 underline hover:text-blue-300"
                 >
-                  How Fluid Compute Works (video)
+                  How Fluid Compute Works (Video)
                 </a>{" "}
-                – a visual walkthrough in under 5 minutes
+                – A short visual walkthrough of the model in action.
               </li>
             </ul>
 
