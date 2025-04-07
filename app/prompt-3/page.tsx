@@ -61,13 +61,13 @@ export default function PromptThree() {
             </p>
           </div>
         </section>
-      </div>
-      <PromptFooter
+        <PromptFooter
           prevHref="/prompt-2"
           prevLabel="← Prompt 2"
           nextHref="/prompt-4"
           nextLabel="Prompt 4 →"
         />
+      </div>
     </main>
   );
 }

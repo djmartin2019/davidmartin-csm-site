@@ -30,14 +30,13 @@ export default function PromptFour() {
             ></iframe>
           </div>
         </section>
+        <PromptFooter
+            prevHref="/prompt-3"
+            prevLabel="← Prompt 3"
+            nextHref="/prompt-5"
+            nextLabel="Prompt 5 →"
+          />
       </div>
-
-      <PromptFooter
-        prevHref="/prompt-3"
-        prevLabel="← Prompt 3"
-        nextHref="/prompt-5"
-        nextLabel="Prompt 5 →"
-      />
     </main>
   );
 }

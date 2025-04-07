@@ -102,13 +102,13 @@ export default function PromptOne() {
             </p>
           </div>
         </section>
+        <PromptFooter
+            prevHref="/"
+            prevLabel="← Home"
+            nextHref="/prompt-2"
+            nextLabel="Prompt 2 →"
+          />
       </div>
-      <PromptFooter
-        prevHref="/"
-        prevLabel="← Home"
-        nextHref="/prompt-2"
-        nextLabel="Prompt 2 →"
-      />
     </main>
   );
 }
