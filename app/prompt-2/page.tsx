@@ -47,7 +47,7 @@ export default function PromptTwo() {
 
             <p className="font-semibold">What Your CTO Will Appreciate</p>
             <ul className="list-disc list-inside space-y-1">
-              <li>Fewer infra decisions = faster iteration and less operational drag</li>
+              <li>Fewer infrastructure decisions = faster iteration and less operational drag</li>
               <li>Predictable global performance = better end-user experience</li>
               <li>Regionless deploys = simplified architecture, fewer moving parts</li>
               <li>Smarter scaling and lower idle usage = potential cost savings</li>
