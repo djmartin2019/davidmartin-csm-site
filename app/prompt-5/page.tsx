@@ -34,13 +34,13 @@ export default function PromptFive() {
             </p>
           </div>
         </section>
-      </div>
-      <PromptFooter
+        <PromptFooter
           prevHref="/prompt-4"
           prevLabel="← Prompt 4"
           nextHref="/"
           nextLabel="Home →"
         />
+      </div>
     </main>
   );
 }
